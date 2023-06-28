@@ -11,8 +11,8 @@
   
 *** 
 ## Kubernetes & Minkube 
-* Download Kubernetes (here)[https://kubernetes.io/docs/home/]
-* Download Minikube (here)[https://minikube.sigs.k8s.io/docs/start/]
+* Download Kubernetes ([here](https://kubernetes.io/docs/home/))
+* Download Minikube ([here](https://kubernetes.io/docs/home/))
 ### Start Minikube
 * minikube start 
 * minikube start  --driver=docker 
@@ -34,7 +34,7 @@
 
 ***
 ### Docker Image
-* NodeApp: (docker repo)[https://hub.docker.com/repository/docker/nanajanashia/k8s-demo-app]
+* NodeApp: ([here](https://kubernetes.io/docs/home/))
 
 *** 
 ### Useful kubernetes cli commands
