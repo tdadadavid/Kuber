@@ -14,22 +14,22 @@
 * Download Kubernetes ([here](https://kubernetes.io/docs/home/))
 * Download Minikube ([here](https://kubernetes.io/docs/home/))
 ### Start Minikube
-* minikube start 
-* minikube start  --driver=docker 
+    * minikube start 
+    * minikube start  --driver=docker 
 ### Check minikube status
-* minikube status
+    * minikube status
 ### Inspect or Get Minikube ip address
-* minikube ip 
-* kubectl get node -o wide
+    * minikube ip 
+    * kubectl get node -o wide
 ### Stop Minikube cluster
-* minikube stop 
+    * minikube stop 
 
 *** 
 ### Steps to start application
-1. kubectl apply -f mongo-config.yaml
-2. kubectl apply -f mongo-secret.yaml
-3. kubectl apply -f mongo.yaml
-4. kubectl apply -f webapp.yaml
+    * kubectl apply -f mongo-config.yaml
+    * kubectl apply -f mongo-secret.yaml
+    * kubectl apply -f mongo.yaml
+    * kubectl apply -f webapp.yaml
 
 
 ***
@@ -38,7 +38,7 @@
 
 *** 
 ### Useful kubernetes cli commands
-* kubectl get node
-* kubectl get pod
-* kubectl get svc
-* kubectl get all
+    * kubectl get node
+    * kubectl get pod
+    * kubectl get svc
+    * kubectl get all
